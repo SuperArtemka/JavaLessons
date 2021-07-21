@@ -37,9 +37,9 @@ public class HomeWorkApp {
 
     }
 
-    public static void compareNumbers() {    // тут я так и не разобрался
+    public static void compareNumbers() {    // Пятое заданиею тут я так и не разобрался
         int a = 20, b = 30;
-        if (a >= b) {
+        if (a >= b) {                        // Шестое задание тоже не понял, ведь запускается все сразую
             System.out.println(a>=b);
         } else {
             System.out.println(a < b);
