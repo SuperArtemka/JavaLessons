@@ -6,11 +6,12 @@ public class JavaLessons2 {
 
     public static void main(String[] args) {
         sumNumbers();
+        System.out.println(sumNumbers());
         numberTwo();
         numberThree();
-        numberFour(value:"Hey", count:5);
+        System.out.println(numberThree());
+        numberFour();
     }
-
             public static boolean sumNumbers() {
             int sum = a + b;
             return sum >= 10 && sum <= 20;
@@ -23,15 +24,12 @@ public class JavaLessons2 {
             }
         }
         public static boolean numberThree() {
-            if (a < 0) {
-            return true;
-            } else {
-            return false;
+            return a < 0;
         }
-
-            public static void numberFour(String value, int count) {
-                for (int i = 0; i >= count; i++) {
-                    System.out.println("Number" + i + value);
+            public static void numberFour() {
+            int count = a;
+                for (int i = 1; i <= count; i++) {
+                    System.out.println("Number" + i);
                 }
             }
 
